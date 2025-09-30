@@ -20,11 +20,6 @@ for i in user_input :
 
         total_enqryption.append(enq)
 
-for i in key_enqryption :
-    if i >= 61 :
-
-        key_enqryption.remove(i)
-        key_enqryption.append(1)
 print(''.join(total_enqryption))
 
 
